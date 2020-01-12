@@ -32,12 +32,15 @@ public class GUI extends JFrame {
 		JPanel pannelloSup = new JPanel(new GridLayout(3,1));
 		anagramma = new JLabel();
 		anagramma.setBorder(BorderFactory.createTitledBorder("Anagramma"));
+		anagramma.setHorizontalAlignment(JLabel.CENTER);
 		pannelloSup.add(anagramma);
 		risultato = new JLabel(" ");
 		risultato.setBorder(BorderFactory.createTitledBorder("Risultato"));
+		risultato.setHorizontalAlignment(JLabel.CENTER);
 		pannelloSup.add(risultato);
 		testo = new JTextField();
 		testo.setBorder(BorderFactory.createTitledBorder("Prova a risolverlo:"));
+		testo.setHorizontalAlignment(JTextField.CENTER);
 		pannelloSup.add(testo);
 		
 		add(pannelloSup, BorderLayout.NORTH);
