@@ -1,2 +1,2 @@
-# SettimanaEnigmistisca
+# SettimanaEnigmistica
 Risolvi gli anagrammi!
